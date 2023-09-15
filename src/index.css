@@ -13,9 +13,33 @@
 
 #bar {
   padding: 10px;
-  min-width: 100px;
-  height: 100vh;
+  width: 100px;
   background: rgb(95, 158, 158);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-content: center;
+}
+
+.color-btn-container{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:5px;
+  border: 2px solid rgb(220, 241, 225)
+}
+
+.color-btn{
+  width: 20px;
+  height: 20px;
+}
+.color-btn:focus{
+  border: 1px solid white;
+  scale: 110%;
 }
 
 #myCanvas{
